@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 //import octo from "./octoCat.svg";
 import "./App.css";
-import img from "./catFork2.jpg";
+import img from "./catForkEggTrans.png";
 //catFight app, person has a cat, will combat other cats, cat's votes will be the metric,
 // so get cats with votes. api key: MTkxNTAw\
 //Changed to 'IngReCat', input ingredients, output recipes and cats. eventually will be able to filter
