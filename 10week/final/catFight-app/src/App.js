@@ -209,13 +209,13 @@ class CatPic extends Component {
   constructor() {
     super();
     this.state = {
-      kitty: 'http://thecatapi.com/api/images/get?format=src&size=med"'
+      kitty: 'https://thecatapi.com/api/images/get?format=src&size=med"'
     };
     this.resetCatPic = this.resetCatPic.bind(this);
   }
 
   resetCatPic() {
-    let newCat = "http://thecatapi.com/api/images/get?format=src&size=med";
+    let newCat = "https://thecatapi.com/api/images/get?format=src&size=med";
     fetch(newCat)
       .then(function(response) {
         console.log(response);
@@ -233,7 +233,7 @@ class CatPic extends Component {
   render() {
     return (
       <div>
-        <a href="http://thecatapi.com">
+        <a href="https://thecatapi.com">
           <img className="catPic" src={this.state.kitty} alt="logo" />
         </a>
         <button className="btn-class" onClick={this.resetCatPic}>

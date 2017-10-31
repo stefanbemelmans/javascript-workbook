@@ -1,0 +1,60 @@
+
+
+/*i{
+  align-self: center;
+}*/
+.icon{
+
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.background-circle{
+  width: 5.6em;
+    text-align: center;
+    line-height: 4.6em;
+    background: #2DBEA0;
+    color: #fff;
+    border-radius: 100%;
+ }
+ form{
+   width: 318px;
+   margin: 10px;
+ }
+p{
+  margin-top: 1rem;
+    margin-bottom: 1rem;
+    /*width: 450px;*/
+  }
+.sent{
+  height: 48rem;
+    border: 2px solid black;
+    border-radius: 10%;
+}
+
+
+
+.tier1{
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height:15rem;
+  width:15rem;
+  background-color: lightgreen;
+  border-radius: 12%;
+  font-size: x-large;
+}
+
+h4{
+  margin-left: 50px;
+
+}
+
+.places{
+
+}
+input[type="checkbox"] {
+      transform:scale(1.6, 1.6);
+      margin-right: 10px;
+    }

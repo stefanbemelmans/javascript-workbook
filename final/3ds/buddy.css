@@ -1,0 +1,31 @@
+p{
+  margin-top: 1rem;
+    margin-bottom: 1rem;
+    width: 450px;
+  }
+
+.tier1{
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height:15rem;
+  width:15rem;
+  background-color: lightgreen;
+  border-radius: 12%;
+  font-size: x-large;
+}
+
+h4{
+  margin-left: 50px;
+
+}
+
+.places{
+
+}
+input[type="checkbox"] {
+      transform:scale(1.6, 1.6);
+      margin-right: 10px;
+    }

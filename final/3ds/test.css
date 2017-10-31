@@ -1,0 +1,34 @@
+
+p{
+  margin:0;
+}
+span{
+  font-size: large;
+}
+.item{
+  display: flex;
+  width: 26rem;
+  height: 6rem;
+  background-color: lightblue;
+  margin-top: 10px;
+}
+.picAmt{
+  flex-direction: column;
+  border-right: 2px solid black;
+  width: 4rem;
+  padding: 3px;
+  margin-right: 5px;
+}
+
+}
+.magic{
+  display: flex;
+  align-content: center;
+
+}
+.veggie{
+  align-self: left;
+  height: 50px;
+  width: 50px;
+  margin: 5px;
+}
